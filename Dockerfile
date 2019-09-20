@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:xenial
 MAINTAINER leifj@sunet.se
 RUN apt-get -y update
 RUN apt-get install -y pound ssl-cert
